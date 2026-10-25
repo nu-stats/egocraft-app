@@ -2,7 +2,7 @@
 
 **Open it: https://nu-stats.github.io/egocraft-app/**
 
-EgoCraft is an app for personal (egocentric) network research: design a
+EgoCraft is an app for egocentric network analysis: design a
 questionnaire, run interviews by touch with the answers kept encrypted on the
 device, import survey files, check them, draw each person's network, compute
 the measures you choose, fit models, and export one row per person with the
