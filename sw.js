@@ -1,6 +1,6 @@
 // EgoCraft offline cache, written by the build. Do not edit.
-const CACHE = "egocraft-94724aea9897";
-const FILES = ["./","./apple-touch-icon.png","./assets/index-BGM0ftNE.js","./assets/index-DlZowS5a.css","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = "egocraft-0b2a122a3570";
+const FILES = ["./","./apple-touch-icon.png","./assets/index-B8nZvpqe.js","./assets/index-DlZowS5a.css","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((c) => c.addAll(FILES.map((f) => new Request(f, { cache: 'reload' })))).then(() => self.skipWaiting()));
